@@ -13,19 +13,27 @@ Please commit relevant code and description to a git repo and submit it all as a
 
 # Requirements
 a. Python NLTK lib
+
 b. Tensorflow
+
 c. Tensorflow hub
+
 d. Scipy
+
 e. Pandas
+
 f. Paraphrase database http://paraphrase.org/#/download
 
 # Step 1
 Prepare the paraphrase binary file
+
 a. Download and extract 'ppdb-2.0-tldr.gz' file from http://paraphrase.org/#/download and extract it into dataset folder
+
 b. Execute prepare_ppdb_dict.py. It will create 'ppdb_model.bin' file in the dataset folder. This file is the extraction of the required fields from the PPDB Dataset.
 
 # Step 2
 Create augmented dataset
+
 a. Execute aug.py to generate the augmented dataset 'new_labeled_messages.csv'
 
 
